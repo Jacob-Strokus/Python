@@ -6,7 +6,7 @@ import shutil, os, errno
 
 # encrypt the files.
 def encrypt(item):
-    #replace print statement with encryption of your choice. I reccommend AES 256 :) will need to import necessary dependencies.
+    # replace print statement with encryption of your choice. I reccommend AES 256 :) will need to import necessary dependencies.
     print('')
 
 # Launch the Script.
