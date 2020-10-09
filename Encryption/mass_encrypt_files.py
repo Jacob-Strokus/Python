@@ -2,7 +2,12 @@
 # Jacob Strokus
 
 # Import statements
-import shutil, os, errno, time
+import shutil, os, errno, time, pyfiglet
+
+
+# banner
+ascii_banner = pyfiglet.figlet_format("Pixxlated")
+print(ascii_banner)
 
 # encrypt the files.
 def encrypt(item):
@@ -25,10 +30,10 @@ def main():
             files_in_dir.append(os.path.join(r, item))
             
 
-    print('Encrypting:\n') # this block of code is only used for visual. Can be removed.
+    print('Encrypting:\n')
     for d in dirs:
-        time.sleep(2) # Easier on the eyes but can removed for faster encrypting
-        print('\\' + d + '\n')
+        time.sleep(2)
+        print(d + '\n')
             
 
     for item in files_in_dir:
