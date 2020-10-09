@@ -22,7 +22,7 @@ def main():
 
         print('Encrypting: \n ')
         for dirs in d:
-            print('\' + dirs + '\n')
+            print('\\' + dirs + '\n')
             
 
     for item in files_in_dir:
