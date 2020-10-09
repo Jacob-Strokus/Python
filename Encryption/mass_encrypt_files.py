@@ -6,7 +6,7 @@ import shutil, os, errno
 
 # encrypt the files.
 def encrypt(item):
-    # replace print statement with encryption of your choice. I reccommend AES 256 :) will need to import necessary dependencies.
+    #replace print statement with encryption of your choice. I reccommend AEs 256 :)
     print('')
 
 # Launch the Script.
@@ -20,9 +20,9 @@ def main():
         for item in f:
             files_in_dir.append(os.path.join(r, item))
 
-        print('Encrypting: \n ')
-        for dirs in d:
-            print('\\' + dirs + '\n')
+    print('Encrypting:\n')
+    for dirs in d:
+        print('\\' + dirs + '\n')
             
 
     for item in files_in_dir:
