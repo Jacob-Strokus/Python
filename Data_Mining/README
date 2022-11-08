@@ -1,3 +1,5 @@
-Collection of arithmetic and categorical classifiers using Neural Networks, Kth Nearest Neighbor classifiers, Naive Bayes, Decision Trees...
+Collection of arithmetic and categorical classifiers using Neural Networks, Kth Nearest Neighbor classifiers, Naive Bayes, Decision Trees, Gini indexing...
 
-dimensionality reductinom techniques,
+dimensionality reduction, cross-validation, pre-processing, clustering, feature selection, supporting evidence through visualization, graphs, and terminal outputs.
+
+Neural Network activation functions, momentum-based gradient descent, binary cross-entropy, optimization to minimize loss and maximize gain/accuracy
