@@ -1,0 +1,2 @@
+Yelp Review Classifier for positive and negative reviews using Kth Nearest Neighbor through consine similarity function. Implemented K-fold cross validation,
+preprocessing through puctuation removal, stemmming, and stop word removal, and dimensionality reduction by vectorization.
